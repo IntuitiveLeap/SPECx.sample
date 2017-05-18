@@ -1,0 +1,8 @@
+div .myBrand {
+    background-color: rgba(50, 50, 50, 0.85);
+    padding: 30px;
+}
+.myBrand {
+    color: lightgrey;
+    text-shadow: 3px 3px 10px black;
+}
