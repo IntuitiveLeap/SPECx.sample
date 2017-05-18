@@ -1,8 +1,25 @@
 div .myBrand {
-    background-color: rgba(50, 50, 50, 0.85);
-    padding: 30px;
+    background-color: rgba(100, 100, 100, 0.85);
+    padding: 0px 5px 5px 5px;
+    border-radius: 0px 50px 50px 50px;
 }
 .myBrand {
     color: lightgrey;
     text-shadow: 3px 3px 10px black;
+
+}
+.myBrand .inner {
+    background-color: rgba(45, 45, 45, 25);
+    border-radius: 0px 45px 45px 45px;
+}
+.myBrand .inner h1 {
+    font-size: 4em;
+    margin-left: 10px;
+}
+.myBrand .blurb {
+    font-size: 1.1em;
+    border-radius: 0px 10px 10px 10px;
+}
+.btn-primary {
+    margin-left: 175px;
 }
