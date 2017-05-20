@@ -1,25 +1,68 @@
 div .myBrand {
-    background-color: rgba(100, 100, 100, 0.85);
+    background-color: rgba(50, 50, 50, 0.85);
     padding: 0px 5px 5px 5px;
-    border-radius: 0px 50px 50px 50px;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .myBrand {
-    color: lightgrey;
-    text-shadow: 3px 3px 10px black;
-
+    color: silver;
 }
-.myBrand .inner {
-    background-color: rgba(45, 45, 45, 25);
-    border-radius: 0px 45px 45px 45px;
+h2 {
+    color: rgba(0, 50, 115, 1);
+    text-shadow: 2px 2px 6px darkgrey;
 }
-.myBrand .inner h1 {
+.emphasis {
+    font-weight: bold;
+}
+.myIcon-list {
+    color: blue;
+}
+.app {
     font-size: 4em;
-    margin-left: 10px;
+    font-weight: bold;
+    margin-right: 30%;
+    margin-left: 0%;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(185, 185, 185, 1);;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: rgba(0, 50, 115, 1);
+    text-shadow: 2px 2px 6px black;
 }
 .myBrand .blurb {
-    font-size: 1.1em;
-    border-radius: 0px 10px 10px 10px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20%;
+    color: rgba(210, 210, 210, 1);
+    background-color: rgba(0, 50, 115, 1);
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+.myButton1 {
+    margin-top: 35px;
+    background-color: rgba(0, 50, 115, 1);
+    color: blue;
 }
 .btn-primary {
-    margin-left: 175px;
+    background-color: rgba(0, 50, 115, 1);
+    margin-left: 50%;
+    margin-right: 0%;
+}
+div .jumbotron {
+    margin-left: 0px;
+    padding-left: 0px;
+    border-radius: 0px 30px 30px 0px;
+}
+.container .myBrand {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+div .inner {
+    margin-left: 0px;
+    padding-left: 0px;
 }
