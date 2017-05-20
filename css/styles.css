@@ -18,11 +18,13 @@ h2 {
 .myIcon-list {
     color: black;
 }
-.col-md-3 {
+.lg-4 {
     border: solid;
+    border-color: rgba(0, 50, 115, 0.15);
     border-width: 1px;
     border-radius: 15px;
-    margin: 0.5px;
+    padding: 0px 15px 0px 15px;
+    margin: 5px -10px 5px -10px;
 }
 .app {
     font-size: 4em;
@@ -58,6 +60,9 @@ h2 {
     background-color: rgba(0, 50, 115, 1);
     margin-left: 50%;
     margin-right: 0%;
+}
+.btn-secondary {
+    margin: 15px 15px 10px 100px;
 }
 div .jumbotron {
     margin-left: 0px;
