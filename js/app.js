@@ -22,16 +22,29 @@ $(document).ready(function() {
     });
 
     $('.lvl1').on('click', function() {
-        var self = this;
-        $(self).children().toggle(300);
-        $(self).siblings().children().hide(300);
+        var $self = $(this);
+        if ($self.children().is(":hidden")) {
+            $self.children().show(300);
+            $self.siblings().children().hide(300);
+            return false;
+        }else{
+            $self.children().hide(300);
+            $self.siblings().children().hide(300);
+            return false;
+        }
     });
 
     $('.lvl2').on('click', function() {
-        var self = this
-        self.children().toggle(300);
-        self.siblings().children().hide(300);
-        self.parent().parent().siblings().hide(300);
+        var $self = $(this);
+        if ($self.children().is(":hidden")) {
+            $self.children().show(300);
+            $self.siblings().children().hide(300);
+            return false;
+        }else{
+            $self.children().hide(300);
+            $self.siblings().children().hide(300);
+            return false;
+        }
     });
-
+// end of script.
 });
