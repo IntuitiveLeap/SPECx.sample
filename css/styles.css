@@ -103,3 +103,9 @@ div .inner {
     margin-left: 0px;
     padding-left: 0px;
 }
+.hide {
+    display: none;
+}
+.show {
+    display: inline-block;
+}

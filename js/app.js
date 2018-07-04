@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
     var $inner = $('.myBrand .inner');
     var $app = $('.myBrand .app');
@@ -23,27 +23,39 @@ $(document).ready(function() {
 
     $('.lvl1').on('click', function() {
         var $self = $(this);
-        if ($self.children().is(":hidden")) {
-            $self.children().show(300);
-            $self.siblings().children().hide(300);
+        if ($self.children().find('.lvl2').hasClass('hide')) {
+            $self.find('.lvl2').removeClass('hide');
+            $self.siblings().find('.lvl2').addClass('hide');
             return false;
         }else{
-            $self.children().hide(300);
-            $self.siblings().children().hide(300);
-            return false;
+            $self.find('.lvl2').addClass('hide');
+            $self.siblings().find('.lvl2').addClass('hide');
         }
     });
 
     $('.lvl2').on('click', function() {
         var $self = $(this);
-        if ($self.children().is(":hidden")) {
-            $self.children().show(300);
-            $self.siblings().children().hide(300);
+        if ($self.children().find('.lvl3').hasClass('hide')) {
+            $self.find('.lvl3').removeClass('hide');
+            $self.siblings().find('.lvl3').addClass('hide');
             return false;
         }else{
-            $self.children().hide(300);
-            $self.siblings().children().hide(300);
+            $self.find('.lvl3').addClass('hide');
+            $self.siblings().find('.lvl3').addClass('hide');
+        }
+    });
+
+    $('.lvl3').on('click', function() {
+        var $self = $(this);
+        if ($self.find('.lvl4').length === 0) {
             return false;
+        }else if ($self.children().find('.lvl4').hasClass('hide')) {
+            $self.find('.lvl4').removeClass('hide');
+            $self.siblings().find('.lvl4').addClass('hide');
+            return false;
+        }else{
+            $self.find('.lvl4').addClass('hide');
+            $self.siblings().find('.lvl4').addClass('hide');
         }
     });
 // end of script.
