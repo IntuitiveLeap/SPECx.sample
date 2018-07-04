@@ -26,7 +26,7 @@ h2 {
     padding-right:20px;
 }
 .emphasis {
-    background-color: rgba(0, 50, 115, 0.20);
+    background-color: rgba(0, 0, 0, 0.2);
     border: solid;
     border-width: 1px;
     border-radius: 15px;
