@@ -1,2 +1,2 @@
 # specx
-provide access to specs
+An example training & info site, with some means of viewing, manipulating or printing material specifications.
