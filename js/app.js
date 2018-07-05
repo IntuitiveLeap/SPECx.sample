@@ -1,9 +1,5 @@
-/*jslint
-  this
-*/
-/*global
-  $
-*/
+//jslint this
+//global $
 $(function () {
     "use strict";
     //var $inner = $(".myBrand .inner");
